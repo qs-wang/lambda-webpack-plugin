@@ -1,0 +1,20 @@
+{
+  "name": "lambda-webpack-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/qs-wang/azure-functions-deploy",
+  "scripts": {
+    "webpack": "webpack --config ./webpack.config.js",
+    "build": "npm run webpack && cp ./package.json dist && cp ./README.md dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "author": "Q.S. Wang (wangqs_eclipse@yahoo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "yazl": "^2.4.3"
+  }
+}
